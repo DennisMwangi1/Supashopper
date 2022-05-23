@@ -7,14 +7,14 @@
 body{
     width: 100%;
     height: 140vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5), #fae321),url(./images/pexels-pixabay-264636.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), #000000b6),url(./images/pexels-pixabay-264636.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
     background-repeat: no-repeat;
 }
 .allcont{
-    background: darkgray;
+    background: rgb(255, 255, 255);
 }
 .navbar .logo{
     color: #717171;
@@ -27,6 +27,7 @@ body{
 }
 .navbar.logo h2{
     display: inline;
+    
 }
 .navbar{
     width: 85%;
@@ -44,7 +45,7 @@ body{
 }
 
 .navbar ul li a{
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bolder;
     font-size: 20px;
     text-decoration: none;
@@ -70,7 +71,8 @@ body{
     position: absolute;
     top: 35%;
     transform: translateY(-50%);
-    color: rgb(246, 198, 6);
+    color: rgb(240, 193, 9);
+    text-align: center;
 }
 
 .content h1{
@@ -82,7 +84,7 @@ body{
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
-    color: black;
+    color: rgb(192, 184, 184);
     font-size: 30px;
 }
 
@@ -102,7 +104,7 @@ button{
     font-weight: bold;
     border: 2px solid brown;
     background: transparent;
-    color: black;
+    color: rgb(253, 249, 249);
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -142,7 +144,7 @@ button:hover{
 }
 
 .maincontent .yummi p{
-    margin-left: -200px;
+    margin-right: 200px;
 }
 .slideshow-container {
     position: relative;
@@ -177,7 +179,7 @@ button:hover{
 }
   
 .active {
-    background-color: #717171;
+    background-color: #ffffffbb;
 }
   
 .fade {
