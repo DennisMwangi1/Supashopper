@@ -1,0 +1,4 @@
+const myFaves = {
+
+    favouriteFruit:"banana"
+}

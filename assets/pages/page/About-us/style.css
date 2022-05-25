@@ -11,7 +11,7 @@ body{
     
 }
 .sect1{
-    background-color:rgba(165, 42, 42, 0.886);
+    background-color:rgba(188, 175, 175, 0.556);
     height: 10vh;
 }
 .sect1>nav{
@@ -49,6 +49,7 @@ a:hover{
     margin-top: 10px;
 }
 .sect2{
+    margin-top: 10px;
     position: relative;
     text-align: center;
     color: white;
@@ -60,17 +61,17 @@ a:hover{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 70px;
+    font-size: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(252, 252, 246);
-    opacity: 0.6;
+    color: rgba(255, 255, 255, 1);
+    
 }
 .sect3{
     margin-top: 5px;
     display: flex;
     justify-content: space-between;
-    height: 16vh;
-    background-color: rgba(200, 193, 193, 0.781);
+    height: 17vh;
+    background-color: rgba(188, 175, 175, 0.548);
     color: rgb(11, 10, 10);
     
 }
@@ -83,7 +84,7 @@ a:hover{
 }
 .sect4{
     border-radius: 230px;
-    background-color: rgba(200, 193, 193, 0.781);
+    background-color: rgba(188, 175, 175, 0.563);
     margin: 0px 30px 0px 30px;
    
 }
@@ -114,4 +115,49 @@ a:hover{
 }
 .sect4>.developers>div>p{
     font-size: 20px;
+}
+
+.sect5{
+    height: 100vh;
+    background-color:rgba(188, 175, 175, 0.563) ;
+    display: flex;
+    margin: 0px 200px 100px 200px;
+}
+.sect5>div{
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
+.rings{
+   display: flex;
+   align-items: center;
+   margin-left: 140px;
+}
+.rings1>.ring1{
+    padding: 75px;
+    border: 15px solid rgb(0, 0, 0);
+    border-top-left-radius: 500px;
+    margin: 2px;
+    
+}
+.rings1>.ring2{
+    padding: 75px;
+    border: 15px solid rgb(0, 0, 0);
+    border-bottom-left-radius: 300px;
+    margin: 2px;
+    
+}
+.rings2>.ring3{
+    padding: 75px;
+    border: 15px solid rgb(0, 0, 0);
+    border-top-right-radius: 300px;
+    margin: 2px;
+    
+}
+.rings2>.ring4{
+    padding: 75px;
+    border: 15px solid rgb(0, 0, 0);
+    border-bottom-right-radius: 300px;
+    margin: 2px;
+    
 }
