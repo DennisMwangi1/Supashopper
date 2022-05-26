@@ -11,8 +11,12 @@ body{
     
 }
 .sect1{
-    background-color:rgba(188, 175, 175, 0.556);
+    background-color:rgba(156, 150, 150, 0.641) ;
     height: 10vh;
+}
+.sect1>nav>img{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 .sect1>nav{
     display: flex;
@@ -53,6 +57,10 @@ a:hover{
     position: relative;
     text-align: center;
     color: white;
+    
+}
+.sect2>img{
+    border-radius: 200px;
 }
 
 .sect2>div{
@@ -71,7 +79,7 @@ a:hover{
     display: flex;
     justify-content: space-between;
     height: 17vh;
-    background-color: rgba(188, 175, 175, 0.548);
+    background-color:rgba(156, 150, 150, 0.641) ;
     color: rgb(11, 10, 10);
     
 }
@@ -84,7 +92,7 @@ a:hover{
 }
 .sect4{
     border-radius: 230px;
-    background-color: rgba(188, 175, 175, 0.563);
+    background-color:rgba(156, 150, 150, 0.641) ;
     margin: 0px 30px 0px 30px;
    
 }
@@ -119,9 +127,10 @@ a:hover{
 
 .sect5{
     height: 100vh;
-    background-color:rgba(188, 175, 175, 0.563) ;
+    background-color:rgba(156, 150, 150, 0.641) ;
     display: flex;
     margin: 0px 200px 100px 200px;
+    border-radius: 100px;
 }
 .sect5>div{
     font-size: 20px;
@@ -132,6 +141,7 @@ a:hover{
    display: flex;
    align-items: center;
    margin-left: 140px;
+   
 }
 .rings1>.ring1{
     padding: 75px;
